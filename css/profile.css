@@ -1,0 +1,377 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+.wrapper{
+	width: 1920px;
+	height: auto;
+	background: black;
+	margin: 0 auto;
+}
+header{
+	width: 1920px;
+	height: 100px;
+	background: #DAEDFA;
+	position: fixed;
+	z-index: 999;
+}
+.container{
+	width: 1200px;
+/*	height: 100vh;*/
+	margin: 0 auto;
+/*	background: pink;*/
+/*	opacity: 80;*/
+/*	overflow-y: scroll;*/
+	scroll-behavior: smooth;
+/*	overflow-y: hidden*/
+}
+.logo{
+/*	background:#B77FE7 ;*/
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+.logo img{
+	width: 100px;
+	margin-top: 5px;
+}
+.u{
+	width: 63px;
+	height: 63px;
+	background: black;
+	border-radius: 50%;
+	margin-top: 61px;
+}
+.u img{
+	margin-top: 18px;
+	margin-left: 15px;
+}
+nav{
+/*	background: #EDFF8A;*/
+	height: 100px;
+	float: right;
+	width: 1100px;
+}
+.menu ul{
+	text-align: right;
+	list-style: none;
+	margin-top: 35px
+}
+.menu ul li{
+	display: inline-block;
+	margin-left: 70px;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: dimgrey;
+	font-family: "Comic Sans MS";
+	font-size: 20px;
+	font-weight: 1000px;
+	color: #1876B7;
+}
+.menu ul li a:hover{
+	color: #E47B48;
+}
+.active{
+	color: black;
+	background: red;
+}
+.section1{
+	height: 1080px;
+	width: 1920px;
+	background: url("../img/TXBeucA.jpg");
+	position: relative;
+}
+.banner-text{
+	width: 950px;
+	height: 360px;
+/*	background: #FF9A9B;*/
+	position: absolute;
+	top:220px;
+/*	margin-top: 10px;*/
+	margin-left: 110px;
+}
+.banner-text h1{
+	font-family: "Comic Sans MS";
+	font-size: 200px;
+	color: #36A4DC;
+	text-align: center;
+	font-weight: 500
+}
+.banner-text h2{
+	font-family: "Century Gothic";
+	font-size: 48px;
+	font-weight: 300;
+	color: #104F83;
+	text-align: center;
+}
+.section2{
+	height: 800px;
+	background:url("../img/Artboard 1100.jpg");
+	padding-top: 130px;
+	box-sizing: border-box;
+	position: relative;
+}
+.about{
+	height: 550px;
+/*	background: #AEF7FF;*/
+/*	margin-top: 100px;*/
+}
+.avta{
+	height: 400px;
+/*	background: green;*/
+}
+.number{
+	height: 150px;
+/*	background: orange;*/
+}
+.box{
+	height: 150px;
+	width: 300px;
+/*	background: red;*/
+	float: left;
+	margin-left: 75px;
+}
+.box h1{
+	font-family: "Comic Sans MS";
+	font-size: 80px;
+	color: #36A4DC ;
+	text-align: center;
+	font-weight: 500
+}
+.box p{
+    font-family: "Calibri";
+	font-size: 30px;
+	text-align: center;
+	font-weight: 800;
+/*	margin-bottom: 50px;*/
+	color: #104F83;
+}
+.avta .img{
+	width: 365px;
+	float: left;
+	background: url("../img/avata.png");
+	height: 400px;
+}
+.avta .text{
+	width: 740px;
+	height: 300px;
+	float: right;
+/*	background: gray;*/
+}
+.text h1{
+	font-family: "Comic Sans MS";
+	font-size: 100px;
+	text-align: center;
+	margin-bottom: 30px;
+	color:#F7DF91;
+}
+.text h2{
+	font-family: "Calibri";
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 50px;
+	color:  #216095;
+}
+.nut{ 
+	padding: 20px 70px;
+	background: #A7D8F4;
+	color: #1876B7;
+	font-size: 14px;
+	margin-left: 300px;
+	border-radius: 10%;
+	font-family: "Century Gothic";
+	font-size: 20px
+}
+.nut:hover{
+	color:black;
+	background: #F7DF91
+}
+.section3{
+	height: 2000px;
+	background: url("../img/3.jpg");
+	position: relative;
+	padding-top: 100px;
+	box-sizing: border-box;
+}
+.big{
+	height: 2000px;
+/*	opacity: 80%;*/
+/*	background: gray;*/
+}
+.big h1{
+	font-family: "Comic Sans MS";
+	font-size: 100px;
+	text-align: center;
+	margin-bottom: 30px;
+	color:#F7DF91;
+}
+.big .box1{
+	height: 600px;
+	width: 1100px;
+/*   background: red;*/
+/*	opacity: 80%;*/
+	margin-top: 100px;
+}
+.box1 h2{
+	font-family: "Comic Sans MS";
+	font-size: 100px;
+	color: #EDA767 ;
+	text-align: left;
+	font-weight: 500;
+	margin-bottom: 70px;
+/*	animation: backoutright 3s linear infinite;*/
+}
+.box1 h3{
+	 font-family: "Calibri";
+	font-size: 60px;
+	text-align: left;
+	font-weight: 800;
+	margin-bottom: 50px;
+	color: #104F83;
+}
+.big .box2{
+	height: 600px;
+	width: 1100px;
+/*    background: blue;*/
+/*	opacity: 80%;*/
+	margin-top: 300px
+}
+.box2 h2{
+	font-family: "Comic Sans MS";
+	font-size: 100px;
+	color: #EDA767 ;
+	text-align: right;
+	font-weight: 500;
+	margin-bottom: 70px;
+}
+.box2 h3{
+	 font-family: "Calibri";
+	font-size: 60px;
+	text-align: right;
+	font-weight: 800;
+	margin-bottom: 50px;
+	color: #104F83;
+}
+.section4{
+	height: 1000px;
+	background: url("../img/0.jpg");
+	padding-top: 150px;
+	box-sizing: border-box;
+	position: relative;
+}
+.tired{
+/*	background: green;*/
+/*	opacity: 80%;*/
+	height: 700px;
+}
+.tired h1{
+	font-family: "Comic Sans MS";
+	font-size: 100px;
+	text-align: center;
+	margin-bottom: 30px;
+	color:#F7DF91;
+}
+.tired h2{
+	font-family: "Century Gothic";
+	font-size: 70px;
+	color: #EDA767 ;
+	text-align: center;
+	font-weight: 500;
+	margin-top: 20px;
+}
+.boxone{
+	height: 500px;
+	background: #DAEDFA;
+	width: 500px;
+	float: left;
+	margin-left: 50px;
+	border-radius: 30%;
+	-webkit-box-shadow: -4px 3px 21px 5px rgba(218,237,250,1);
+-moz-box-shadow: -4px 3px 21px 5px rgba(218,237,250,1);
+box-shadow: -4px 3px 21px 5px rgba(218,237,250,1);
+}
+.fa-paint-brush{
+	margin-top: 30px;
+	margin-left: 150px;
+}
+.boxtwo{
+	height: 500px;
+	background: #DAEDFA;
+	width: 500px;
+	float: right;
+	margin-right: 50px;
+	border-radius: 30%;
+	-webkit-box-shadow: -4px 3px 21px 5px rgba(218,237,250,1);
+-moz-box-shadow: -4px 3px 21px 5px rgba(218,237,250,1);
+box-shadow: -4px 3px 21px 5px rgba(218,237,250,1);
+}
+.fa-save{
+	margin-top: 30px;
+	margin-left: 150px;
+}
+.section5{
+	height: 1200px;
+	background:url("../img/5.jpg");
+	position: relative;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+.section5 h1{
+	font-family: "Comic Sans MS";
+	font-size: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+	color:#F7DF91;
+}
+.slider{
+	height: 900px;
+	background: brown;
+	-webkit-box-shadow: 1px -2px 34px 0px rgba(249,227,131,1);
+-moz-box-shadow: 1px -2px 34px 0px rgba(249,227,131,1);
+box-shadow: 1px -2px 34px 0px rgba(249,227,131,1);
+}
+.item{
+	height: 900px;
+	width: 1200px;
+}
+footer{
+	height: 700px;
+	background:url("../img/Artboard 5 copy100.jpg");
+	padding-top: 300px;
+	box-sizing: border-box;
+}
+.small{
+	height: 400px;
+}
+.small h1{
+	font-family: "Comic Sans MS";
+	font-size: 100px;
+	text-align: center;
+	margin-bottom: 30px;
+	color:#F7DF91;
+}
+.small h3{
+	font-family: "Calibri";
+	font-size: 50px;
+	text-align: center;
+	font-weight: 600;
+	color: #36A4DC;
+	margin-bottom: 20px;
+}
+.internet{
+/*	background: red;*/
+	height: 100px;
+	width: 400px;
+	margin-top: 30px;
+	margin-left: 500px;
+}
+.fa-behance-square{
+	margin-left: 20px;
+	margin-right: 20px;
+}
